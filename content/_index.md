@@ -6,6 +6,7 @@ Visit my [github](https://github.com/xxxoooxoxo) to see what I'm working on.
 ## Some things I like
 
 - When I make things that don't break
+- My gf
 - When I make things that do break, but I can fix them
 - Coffee (a lot)
 - Learning new things
