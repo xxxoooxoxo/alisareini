@@ -3,6 +3,7 @@ author: "Hugo Authors"
 title: "Markdown Syntax Guide"
 date: "2019-03-11"
 description: "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
+draft: true
 tags: [
     "markdown",
     "css",
@@ -142,8 +143,8 @@ Tables aren't part of the core Markdown spec, but Hugo supports them out-of-the-
 - [x] Item 1
 - [ ] Item 2
   - [x] Sub-item 2.1
-  - [ ] Sub-item 2.2 
-- [ ] Item 3 
+  - [ ] Sub-item 2.2
+- [ ] Item 3
 
 ### Definition List
 
