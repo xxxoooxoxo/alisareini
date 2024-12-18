@@ -1,8 +1,7 @@
-title = "TeXify3"
-description = "TeXify3 - A LaTeX-style hugo theme with the gruvbox color scheme for personal blogging"
+title = "Ali Sareini"
+description = "Ali Sareini's personal blog"
 footnote = """
-Powered by  <a class=link href=https://gohugo.io target=_blank rel=noopener>Hugo</a> |
-Theme <a class=link href=https://github.com/michaelneuper/hugo-texify3 target=_blank rel=noopener>TeXify3</a>
+Powered by  <a class=link href=https://gohugo.io target=_blank rel=noopener>Hugo</a>, I was just curious.
 """
 keywords = ["hugo", "latex", "theme", "blog", "texify", "texify2", "texify3"]
 customCSS = []
@@ -15,16 +14,16 @@ showWordCount = true
 showReadingTime = true
 rootFontSize = "100%"
 math = true
-enableDuckDuckGoSearchBox = true
+enableDuckDuckGoSearchBox = false
 numberedSubtitles = true
 enableInlineShortcodes = true
 
 [sharingbuttons]
-facebook = true
+facebook = false
 twitter = true
 email = true
 linkedin = true
 reddit = true
-whatsapp = true
+whatsapp = false
 hackernews = true
-telegram = true
+telegram = false
