@@ -4,7 +4,6 @@ enableRobotsTXT = true
 hasCJKLanguage = true
 languageCode = "en"
 rssLimit = 10
-theme = "academic"
 title = "Ali Sareini"
 
 [pagination]
@@ -28,7 +27,7 @@ dateFormat = "2 January 2006"
 emphasisWithDots = true
 toc = true
 rootFontSize = "105%"
-math = true
+math = false
 numberedSubtitles = true
 
   [params.sharingbuttons]

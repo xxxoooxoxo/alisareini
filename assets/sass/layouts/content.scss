@@ -1,7 +1,7 @@
 @use "sass:math";
 
-@import "../vars";
-@import "../syntax";
+@use "../vars";
+@use "../syntax";
 
 .content {
   .MathJax {
@@ -41,8 +41,8 @@
 
   blockquote {
     background-color: var(--bg_s);
-    border-left: var(--fg) $border solid;
-    border-radius: $radius;
+    border-left: var(--fg) vars.$border solid;
+    border-radius: vars.$radius;
     font-style: italic;
     padding: 1rem 2rem;
   }
@@ -53,7 +53,7 @@
 
   pre {
     background-color: var(--bg_s) !important;
-    border-radius: $radius;
+    border-radius: vars.$radius;
     font-family: "Latin Modern Mono", Courier, monospace;
     position: relative;
     overflow-x: auto;
@@ -66,7 +66,7 @@
 
   code {
     background-color: var(--bg_s);
-    border-radius: $radius;
+    border-radius: vars.$radius;
     font-family: "Latin Modern Mono", Courier, monospace;
     padding: 0 0.2rem;
   }
@@ -74,14 +74,14 @@
   mark {
     background-color: var(--bg_s);
     color: var(--fg1);
-    border-radius: $radius;
+    border-radius: vars.$radius;
     padding: 0 0.2rem;
   }
 
   kbd {
     background-color: var(--bg_s);
     color: var(--fg1);
-    border-radius: $radius;
+    border-radius: vars.$radius;
   }
 
   table {
@@ -94,7 +94,7 @@
 
     td,
     th {
-      border: var(--fg4) $border solid;
+      border: var(--fg4) vars.$border solid;
       padding: 0.1rem 0.5rem;
     }
 
@@ -106,7 +106,7 @@
 
   ol,
   ul {
-    margin-left: $margin;
+    margin-left: vars.$margin;
   }
 
   dt {
@@ -114,7 +114,7 @@
   }
 
   dd {
-    margin-left: $margin;
+    margin-left: vars.$margin;
   }
 }
 
@@ -122,12 +122,12 @@ button.copy-button {
   background-color: var(--bg1);
   color: var(--fg1);
   position: absolute;
-  top: calc((4px + $margin) / 2);
-  right: calc((4px + $margin) / 2);
+  top: calc((4px + vars.$margin) / 2);
+  right: calc((4px + vars.$margin) / 2);
   opacity: 0.7;
   border: none;
   padding: 0.5rem;
-  border-radius: $radius;
+  border-radius: vars.$radius;
   cursor: pointer;
   transition: opacity 0.3s;
 
@@ -156,7 +156,7 @@ button.copy-button {
 .content ul,
 .content dl,
 .content video {
-  margin-bottom: $margin;
+  margin-bottom: vars.$margin;
 }
 
 .content h1,
@@ -165,31 +165,31 @@ button.copy-button {
 .content h4,
 .content h5,
 .content h6 {
-  line-height: $f * $phi + 1;
+  line-height: vars.$f * vars.$phi + 1;
 }
 
 .content h1 {
-  font-size: $f * math.pow($phi, 2);
+  font-size: vars.$f * math.pow(vars.$phi, 2);
 }
 
 .content h2 {
-  font-size: $f * math.pow($phi, math.div(3, 2));
+  font-size: vars.$f * math.pow(vars.$phi, math.div(3, 2));
 }
 
 .content h3 {
-  font-size: $f * $phi;
+  font-size: vars.$f * vars.$phi;
 }
 
 .content h4 {
-  font-size: $f * math.sqrt($phi);
+  font-size: vars.$f * math.sqrt(vars.$phi);
 }
 
 .content h5 {
-  font-size: $f;
+  font-size: vars.$f;
 }
 
 .content h6 {
-  font-size: math.div($f, math.sqrt($phi));
+  font-size: math.div(vars.$f, math.sqrt(vars.$phi));
 }
 
 .content img {

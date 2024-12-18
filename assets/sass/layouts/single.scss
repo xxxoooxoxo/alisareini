@@ -1,4 +1,4 @@
-@import "../vars";
+@use "../vars";
 
 #main {
   & > h1 {
@@ -12,7 +12,7 @@
       color: var(--text-secondary);
       font-size: large;
       padding-top: 0.5rem;
-      margin-bottom: $margin;
+      margin-bottom: vars.$margin;
 
       svg {
         margin-right: 0.1em;
@@ -23,7 +23,7 @@
 
   .tag {
     background-color: var(--bg_s);
-    border-radius: $radius;
+    border-radius: vars.$radius;
     padding: 0.2em 0.3em;
   }
 
@@ -34,7 +34,7 @@
   .toc {
     background-color: var(--bg_s);
     border: var(--fg4) 1px dashed;
-    border-radius: $radius;
+    border-radius: vars.$radius;
     display: inline-block;
     margin: 1rem;
     padding: 0.5rem 1rem;
@@ -67,7 +67,7 @@
     margin: 2rem 0;
     padding: 1rem 0;
     text-align: center;
-    border-radius: $radius;
+    border-radius: vars.$radius;
   }
 
   .content {
@@ -84,8 +84,8 @@
       color: var(--fg);
       cursor: pointer;
       padding: 1rem;
-      border-radius: $radius;
-      margin: calc($margin * 2) $padding $margin $padding;
+      border-radius: vars.$radius;
+      margin: calc(vars.$margin * 2) vars.$padding vars.$margin vars.$padding;
   }
 
   #back-to-top:hover {

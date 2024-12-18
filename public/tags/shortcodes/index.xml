@@ -9,10 +9,10 @@
     <lastBuildDate>Sun, 10 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/shortcodes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rich Content</title>
-      <link>http://localhost:1313/posts/posts/rich-content/</link>
+      <link>http://localhost:1313/posts/rich-content/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/posts/rich-content/</guid>
+      <guid>http://localhost:1313/posts/rich-content/</guid>
       <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;youtube-privacy-enhanced-shortcode&#34;&gt;YouTube Privacy Enhanced Shortcode&lt;/h2&gt;
@@ -24,14 +24,14 @@
       &gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
-&lt;!-- raw HTML omitted --&gt;
+&lt;br&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;twitter-simple-shortcode&#34;&gt;Twitter Simple Shortcode&lt;/h2&gt;
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Owl bet you&amp;#39;ll lose this staring contest 🦉 &lt;a href=&#34;https://t.co/eJh4f2zncC&#34;&gt;pic.twitter.com/eJh4f2zncC&lt;/a&gt;&lt;/p&gt;&amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) &lt;a href=&#34;https://twitter.com/sandiegozoo/status/1453110110599868418?ref_src=twsrc%5Etfw&#34;&gt;October 26, 2021&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
 
-&lt;!-- raw HTML omitted --&gt;
+&lt;br&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;vimeo-simple-shortcode&#34;&gt;Vimeo Simple Shortcode&lt;/h2&gt;
 &lt;style&gt;
@@ -66,7 +66,7 @@
             &lt;/div&gt;
           &lt;/a&gt;
         &lt;/div&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;br&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;mermaid&#34;&gt;Mermaid&lt;/h2&gt;
 &lt;div class=&#34;mermaid&#34;&gt;sequenceDiagram

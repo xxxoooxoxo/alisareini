@@ -9,4 +9,3 @@ math: false
 draft: false
 ---
 Generic summary
-<!--more-->

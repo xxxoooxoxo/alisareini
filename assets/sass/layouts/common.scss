@@ -1,7 +1,7 @@
 @use "sass:math";
 
-@import "../vars";
-@import "../fonts";
+@use "../vars";
+@use "../fonts";
 
 // global
 * {
@@ -41,10 +41,10 @@ time {
 
 hr {
   background-color: var(--fg4);
-  margin-top: $margin;
-  margin-bottom: $margin;
+  margin-top: vars.$margin;
+  margin-bottom: vars.$margin;
   border: 0;
-  height: $border;
+  height: vars.$border;
 }
 
 #wrapper {
@@ -54,11 +54,11 @@ hr {
   font-family: "Latin Modern Roman", "Times New Roman", serif;
   min-height: 100vh;
   overflow-wrap: break-word;
-  padding: 1rem $padding;
+  padding: 1rem vars.$padding;
 
-  @media screen and (max-width: $mobile-breakpoint) {
-    padding-left: math.div($padding, 3);
-    padding-right: math.div($padding, 3);
+  @media screen and (max-width: vars.$mobile-breakpoint) {
+    padding-left: math.div(vars.$padding, 3);
+    padding-right: math.div(vars.$padding, 3);
   }
 }
 
@@ -93,7 +93,7 @@ hr {
   & > h1 {
     text-align: center;
 
-    @media screen and (min-width: $mobile-breakpoint) {
+    @media screen and (min-width: vars.$mobile-breakpoint) {
       font-size: 2.8rem;
     }
   }
@@ -103,7 +103,7 @@ hr {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    max-width: $mobile-breakpoint;
+    max-width: vars.$mobile-breakpoint;
     margin-top: 10px;
     width: 100%;
 
@@ -120,7 +120,7 @@ hr {
         position: absolute;
         width: 100%;
         transform: scaleX(0);
-        height: $border;
+        height: vars.$border;
         bottom: 0;
         left: 0;
         transform-origin: bottom right;
@@ -143,7 +143,7 @@ hr {
 
 // main
 main {
-  margin: 0 $margin;
+  margin: 0 vars.$margin;
 }
 
 #main {
@@ -155,7 +155,7 @@ main {
   padding: 0;
   width: calc(100% - 2rem); // TODO
 
-  @media screen and (max-width: $mobile-breakpoint) {
+  @media screen and (max-width: vars.$mobile-breakpoint) {
     width: 100%;
   }
 }
@@ -167,7 +167,7 @@ main {
   display: flex;
   font-size: 0.9rem;
   flex-direction: column;
-  margin-top: $margin;
+  margin-top: vars.$margin;
 
   & > .footnote {
     text-align: center;
@@ -188,11 +188,11 @@ main {
   background-color: var(--bg);
   color: var(--fg);
   position: absolute;
-  top: calc(((4px + $margin) / 2) + 12.55px);
-  right: $padding;
+  top: calc(((4px + vars.$margin) / 2) + 12.55px);
+  right: vars.$padding;
   border: none;
   padding: 0.5rem;
-  border-radius: $radius;
+  border-radius: vars.$radius;
   cursor: pointer;
   transition: opacity 0.3s;
 
@@ -201,8 +201,8 @@ main {
   }
 
   @media screen {
-    @media screen and (max-width: $mobile-breakpoint) {
-      right: calc((4px + $margin) / 2);
+    @media screen and (max-width: vars.$mobile-breakpoint) {
+      right: calc((4px + vars.$margin) / 2);
     }
   }
 }

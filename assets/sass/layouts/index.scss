@@ -1,20 +1,20 @@
 @use "sass:math";
 
-@import "../vars";
+@use "../vars";
 
 .grid-container {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  gap: $margin * 2;
+  gap: vars.$margin * 2;
 
-  @media (max-width: $mobile-breakpoint) {
+  @media (max-width: vars.$mobile-breakpoint) {
     grid-template-columns: 1fr;
   }
 
   .sidebar {
     flex: 1;
 
-    @media screen and (max-width: $mobile-breakpoint) {
+    @media screen and (max-width: vars.$mobile-breakpoint) {
       order: 1;
     }
 
@@ -35,11 +35,11 @@
       padding: 0;
       border-color: var(--fg4);
       display: block;
-      padding: math.div($margin, 2);
-      margin-top: math.div($margin, 2);
-      margin-bottom: math.div($margin, 2);
-      border: $border solid;
-      border-radius: $radius;
+      padding: math.div(vars.$margin, 2);
+      margin-top: math.div(vars.$margin, 2);
+      margin-bottom: math.div(vars.$margin, 2);
+      border: vars.$border solid;
+      border-radius: vars.$radius;
 
       li a {
         text-decoration: none;
@@ -51,7 +51,7 @@
         &:hover {
           color: var(--fg1);
           background-color: var(--bg_s);
-          border-radius: $radius;
+          border-radius: vars.$radius;
         }
       }
     }

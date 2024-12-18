@@ -1,12 +1,12 @@
-@import "../vars";
+@use "../vars";
 
 #main {
   & > .post-group {
     & > ul {
-      border-left: var(--fg4) solid $border;
+      border-left: var(--fg4) solid vars.$border;
       list-style-type: none;
       margin-left: 0.5rem;
-      padding-left: $margin;
+      padding-left: vars.$margin;
 
       & > li {
         align-items: center;
@@ -20,7 +20,7 @@
         }
       }
 
-      @media screen and (min-width: $mobile-breakpoint) {
+      @media screen and (min-width: vars.$mobile-breakpoint) {
         margin-left: 1rem;
         padding-left: 2rem;
       }
@@ -43,7 +43,7 @@
   flex-direction: row;
   justify-content: space-between;
   margin-top: 0;
-  margin-bottom: $margin;
+  margin-bottom: vars.$margin;
 
   #ddgSearch {
     position: relative;
@@ -56,8 +56,8 @@
       padding-left: 10px;
       width: 200px;
       height: 1.8rem;
-      border: $border solid var(--fg4);
-      border-radius: $radius;
+      border: vars.$border solid var(--fg4);
+      border-radius: vars.$radius;
 
       &:focus {
         outline: 1px solid var(--fg1);

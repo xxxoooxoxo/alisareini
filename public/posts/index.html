@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="font-size: 105%">
+<html lang="en" style="font-size: 100%">
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="UTF-8">
@@ -25,22 +25,25 @@
 
   
   
-  <link rel="stylesheet" href='/katex/katex.min.css'>
-<script defer defer src='/katex/katex.min.js'></script>
+  <link rel="stylesheet" href='/katex/katex.min.css' />
+<script defer src='/katex/katex.min.js'></script>
 <script defer src='/katex/contrib/auto-render.min.js'></script>
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        renderMathInElement(document.body, {
-          delimiters: [
-              {left: '$$', right: '$$', display: true},
-              {left: '$', right: '$', display: false},
-              {left: '\\(', right: '\\)', display: false},
-              {left: '\\[', right: '\\]', display: true}
-          ],
-          throwOnError : false
-        });
+    document.addEventListener("DOMContentLoaded", function () {
+        if (typeof renderMathInElement !== "undefined") {
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true },
+                ],
+                throwOnError: false,
+            });
+        }
     });
 </script>
+
   
 
   
@@ -49,9 +52,8 @@
   
   <meta property="og:url" content="http://localhost:1313/posts/">
   <meta property="og:site_name" content="Ali Sareini">
-  <meta property="og:title" content="Ali Sareini">
-  <meta property="og:description" content="A minimal, $\LaTeX$-style hugo theme for personal blogging. Visit the wiki for information on how to install and configure.
-Features Any comment engine (giscus, remark42, hyvor, etc.) Mermaid support DuckDuckGo search Buymeacoffee widget Auto numbered subtitles Disqus &amp; Google Analytics Render math equations with KaTeX PostCSS to make writing CSS easier Dark mode toggle Citations Acknowledgement This is a fork of the TeXify2 theme.">
+  <meta property="og:title" content="Posts">
+  <meta property="og:description" content="TeXify3 - A LaTeX-style hugo theme with the gruvbox color scheme for personal blogging">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
 
@@ -64,12 +66,10 @@ Features Any comment engine (giscus, remark42, hyvor, etc.) Mermaid support Duck
   <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/posts/index.xml" title="Ali Sareini" />
   
   
-  <meta itemprop="name" content="Ali Sareini">
-  <meta itemprop="description" content="A minimal, $\LaTeX$-style hugo theme for personal blogging. Visit the wiki for information on how to install and configure.
-Features Any comment engine (giscus, remark42, hyvor, etc.) Mermaid support DuckDuckGo search Buymeacoffee widget Auto numbered subtitles Disqus &amp; Google Analytics Render math equations with KaTeX PostCSS to make writing CSS easier Dark mode toggle Citations Acknowledgement This is a fork of the TeXify2 theme.">
+  <meta itemprop="name" content="Posts">
+  <meta itemprop="description" content="TeXify3 - A LaTeX-style hugo theme with the gruvbox color scheme for personal blogging">
   <meta itemprop="datePublished" content="2023-11-10T00:00:00+00:00">
   <meta itemprop="dateModified" content="2023-11-10T00:00:00+00:00">
-  <meta itemprop="wordCount" content="64">
 
   
   
@@ -84,15 +84,14 @@ Features Any comment engine (giscus, remark42, hyvor, etc.) Mermaid support Duck
 
   
   
-  <title> - Ali Sareini</title>
+  <title>Posts - Ali Sareini</title>
   
 
   
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Ali Sareini">
-  <meta name="twitter:description" content="A minimal, $\LaTeX$-style hugo theme for personal blogging. Visit the wiki for information on how to install and configure.
-Features Any comment engine (giscus, remark42, hyvor, etc.) Mermaid support DuckDuckGo search Buymeacoffee widget Auto numbered subtitles Disqus &amp; Google Analytics Render math equations with KaTeX PostCSS to make writing CSS easier Dark mode toggle Citations Acknowledgement This is a fork of the TeXify2 theme.">
+  <meta name="twitter:title" content="Posts">
+  <meta name="twitter:description" content="TeXify3 - A LaTeX-style hugo theme with the gruvbox color scheme for personal blogging">
 
 
   
@@ -110,7 +109,7 @@ Features Any comment engine (giscus, remark42, hyvor, etc.) Mermaid support Duck
 
 <header id="header">
   <h1>
-    <a href="http://localhost:1313/">Ali Sareini</a>
+    <a href="http://localhost:1313/">TeXify3</a>
     <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle theme">
         <svg width="2rem" height="2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496">
         <path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/>
@@ -176,7 +175,7 @@ Features Any comment engine (giscus, remark42, hyvor, etc.) Mermaid support Duck
     <ul>
       
       <li>
-        <a class="link" href="/posts/posts/mermaid-diagrams/">Mermaid Diagrams</a>
+        <a class="link" href="/posts/mermaid-diagrams/">Mermaid Diagrams</a>
         <time>10 November 2023</time>
       </li>
       
@@ -188,17 +187,17 @@ Features Any comment engine (giscus, remark42, hyvor, etc.) Mermaid support Duck
     <ul>
       
       <li>
-        <a class="link" href="/posts/posts/markdown-syntax/">Markdown Syntax Guide</a>
+        <a class="link" href="/posts/markdown-syntax/">Markdown Syntax Guide</a>
         <time>11 March 2019</time>
       </li>
       
       <li>
-        <a class="link" href="/posts/posts/rich-content/">Rich Content</a>
+        <a class="link" href="/posts/rich-content/">Rich Content</a>
         <time>10 March 2019</time>
       </li>
       
       <li>
-        <a class="link" href="/posts/posts/placeholder-text/">Placeholder Text</a>
+        <a class="link" href="/posts/placeholder-text/">Placeholder Text</a>
         <time>9 March 2019</time>
       </li>
       
@@ -210,12 +209,12 @@ Features Any comment engine (giscus, remark42, hyvor, etc.) Mermaid support Duck
     <ul>
       
       <li>
-        <a class="link" href="/posts/posts/math-typesetting/">Math Typesetting</a>
+        <a class="link" href="/posts/math-typesetting/">Math Typesetting</a>
         <time>8 February 2019</time>
       </li>
       
       <li>
-        <a class="link" href="/posts/posts/emoji-support/">Emoji Support</a>
+        <a class="link" href="/posts/emoji-support/">Emoji Support</a>
         <time>5 February 2019</time>
       </li>
       

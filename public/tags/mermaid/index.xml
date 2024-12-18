@@ -9,10 +9,10 @@
     <lastBuildDate>Fri, 10 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/mermaid/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mermaid Diagrams</title>
-      <link>http://localhost:1313/posts/posts/mermaid-diagrams/</link>
+      <link>http://localhost:1313/posts/mermaid-diagrams/</link>
       <pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/posts/mermaid-diagrams/</guid>
+      <guid>http://localhost:1313/posts/mermaid-diagrams/</guid>
       <description>&lt;h2 id=&#34;flowchart&#34;&gt;Flowchart&lt;/h2&gt;
 &lt;div class=&#34;mermaid&#34;&gt;graph LR;
     A[Hard edge] --&gt;|Link text| B(Round edge)
