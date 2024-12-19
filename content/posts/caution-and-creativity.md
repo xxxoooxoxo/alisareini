@@ -10,7 +10,8 @@ draft: false
 ---
 
 I recently received a LinkedIn suggested prompt that got me thinking:
-| You're juggling creativity and caution in your project. How can you avoid potential pitfalls?
+
+> You're juggling creativity and caution in your project. How can you avoid potential pitfalls?
 
 From a software perspective, it is important to not migrate to the flashiest tools or technologies solely because they are modern or popular.
 
