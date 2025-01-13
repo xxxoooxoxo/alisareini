@@ -1,0 +1,168 @@
+{
+  "main": {
+    "id": "a585e71527853bdc",
+    "type": "split",
+    "children": [
+      {
+        "id": "3dc4322e6b59ec59",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dbe31ce46263179a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "281a15fd14f82a99",
+    "type": "split",
+    "children": [
+      {
+        "id": "97aef4b3ca6bea24",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1e0ad3a81752534c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "da85b5cda53adae6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:creativity",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "76edee2941565fda",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d13f16fce5e69664",
+    "type": "split",
+    "children": [
+      {
+        "id": "eb5c3e7eb0f3747c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f40b8d2c72ede07",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "math-typesetting.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for math-typesetting"
+            }
+          },
+          {
+            "id": "98fccad027dece16",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "math-typesetting.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from math-typesetting"
+            }
+          },
+          {
+            "id": "008ad53d807b96dd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1dc0307344658a66",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "math-typesetting.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of math-typesetting"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "da85b5cda53adae6",
+  "lastOpenFiles": [
+    "caution-and-creativity.md",
+    "emoji-support.md",
+    "math-typesetting.md"
+  ]
+}

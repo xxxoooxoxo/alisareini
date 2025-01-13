@@ -1,16 +1,15 @@
 ---
-author: "Hugo Authors"
-title: "Emoji Support"
-date: "2019-02-05"
-description: "Guide to emoji usage in Hugo"
+author: Hugo Authors
+title: Emoji Support
+date: 2019-02-05
+description: Guide to emoji usage in Hugo
 draft: true
-tags: [
-    "emoji",
-]
+tags:
+  - emoji
 ---
 
 Emoji can be enabled in a Hugo project in a number of ways.
-<!--more-->
+<!--more-->aw
 
 The [`emojify`](https://gohugo.io/functions/emojify/) function can be called directly in templates or [Inline Shortcodes](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes).
 
